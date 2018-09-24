@@ -1,0 +1,62 @@
+.intro-2 {
+    background: url("/images/top-intro.png")no-repeat center center;
+    background-size: cover;
+}
+.intro-1 {
+    background: url("/images/stars-bg.png")no-repeat center center;
+    background-size: cover;
+}
+#casino{
+    position:absolute;
+    bottom: -20;
+    left: 500;
+    width: 300;
+    z-index: 1;
+}
+#casino-spin{
+    position:absolute;
+    bottom: 11;
+    left: 560;
+    width: 143;
+    z-index: 2;
+    animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-delay: 2s;
+}
+#chips{
+    position:absolute;
+    bottom: -40;
+    right: 300;
+    width: 300;
+}
+@keyframes spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@media only screen and (max-width:430px){
+    #casino{
+        position:absolute;
+        bottom: 0;
+        left: 10;
+        width: 200;
+        z-index: 1;
+    }
+    #casino-spin{
+        position:absolute;
+        bottom: 21;
+        left: 51;
+        width: 95;
+        z-index: 2;
+        animation-name: spin;
+      animation-duration: 5000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; 
+      animation-delay: 2s;
+    }
+}
