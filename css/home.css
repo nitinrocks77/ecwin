@@ -1,9 +1,9 @@
 .intro-2 {
-    background: url("/images/top-intro.png")no-repeat center center;
+    background: url("images/top-intro.png")no-repeat center center;
     background-size: cover;
 }
 .intro-1 {
-    background: url("/images/stars-bg.png")no-repeat center center;
+    background: url("images/stars-bg.png")no-repeat center center;
     background-size: cover;
 }
 #casino{
