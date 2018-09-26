@@ -1,9 +1,9 @@
 .intro-2 {
-    background: url("https://nitinrocks77.github.io/ecwin/images/top-intro.png")no-repeat center center;
+    background: url("/images/top-intro.png")no-repeat center center;
     background-size: cover;
 }
 .intro-1 {
-    background: url("https://nitinrocks77.github.io/ecwin/images/stars-bg.png")no-repeat center center;
+    background: url("/images/stars-bg.png")no-repeat center center;
     background-size: cover;
 }
 #casino{
@@ -31,6 +31,43 @@
     right: 300;
     width: 300;
 }
+.cloud-2{
+    position:absolute;
+    top:1410;
+}
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item:nth-child(1) {
+  background-image: url("/images/sports.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.carousel-item:nth-child(2) {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width:786px){
+    .mobile{
+        max-width: 1000px;
+    }
+}
+
 @keyframes spin{
     from {
         transform:rotate(0deg);
